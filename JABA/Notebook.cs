@@ -18,12 +18,12 @@ namespace Laba
         public static List<Notebook> notes = new List<Notebook>();
         public static int conatactsCounter;
 
-        public Notebook(string name, string secondName, string phoneNumber, string coutry)
+        public Notebook(string name, string secondName, string phoneNumber, string country)
         {
             Name = name;
             SecondName = secondName;
             PhoneNumber = phoneNumber;
-            Country = coutry;
+            Country = country;
         }
     }
 }
